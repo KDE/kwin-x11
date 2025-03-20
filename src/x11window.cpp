@@ -4540,7 +4540,7 @@ void X11Window::maximize(MaximizeMode mode, const QRectF &restore)
         return;
     }
 
-    if (!isMaximizable()) {
+    if (!isMaximizable() && mode != MaximizeRestore) {
         return;
     }
 
@@ -4701,13 +4701,18 @@ void X11Window::maximize(MaximizeMode mode, const QRectF &restore)
         }
 
         restore.setSize(constrainFrameSize(restore.size(), SizeModeAny));
-        if (isInteractiveMove()) {
-            if (!isFullScreen()) {
-                const QPointF anchor = interactiveMoveResizeAnchor();
-                const QPointF offset = interactiveMoveOffset();
-                restore.moveTopLeft(QPointF(anchor.x() - offset.x() * restore.width(),
-                                            anchor.y() - offset.y() * restore.height()));
+
+        if (isFullScreen()) {
+            if (info->fullscreenMonitors().isSet()) {
+                restore = fullscreenMonitorsArea(info->fullscreenMonitors());
+            } else {
+                restore = workspace()->clientArea(FullScreenArea, this, moveResizeOutput());
             }
+        } else if (isInteractiveMove()) {
+            const QPointF anchor = interactiveMoveResizeAnchor();
+            const QPointF offset = interactiveMoveOffset();
+            restore.moveTopLeft(QPointF(anchor.x() - offset.x() * restore.width(),
+                                        anchor.y() - offset.y() * restore.height()));
         }
 
         moveResize(restore);
