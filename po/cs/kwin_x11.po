@@ -3374,10 +3374,9 @@ msgid "<b>%1</b> is used by %2 in %3"
 msgstr "<b>%1</b> je již používáno %2 v %3"
 
 #: useractions.cpp:912
-#, fuzzy, kde-format
-#| msgid "Window role"
+#, kde-format
 msgid "Window Menu"
-msgstr "Role okna"
+msgstr "Nabídka Okno"
 
 #: useractions.cpp:914
 #, kde-format
@@ -3819,64 +3818,3 @@ msgstr ""
 #, kde-format
 msgid "Xwayland has crashed"
 msgstr "Xwayland spadnul"
-
-#~ msgid "Window Operations Menu"
-#~ msgstr "Nabídka činností okna"
-
-#~ msgid "Size"
-#~ msgstr "Velikost"
-
-#~ msgid "&Width:"
-#~ msgstr "Šíř&ka:"
-
-#~ msgid " px"
-#~ msgstr " px"
-
-#~ msgid "&Height:"
-#~ msgstr "&Výška:"
-
-#~ msgid "Move Left"
-#~ msgstr "Přesunout doleva"
-
-#~ msgid "Move Right"
-#~ msgstr "Přesunout doprava"
-
-#~ msgid "Move Up"
-#~ msgstr "Přesunout nahoru"
-
-#~ msgid "Move Down"
-#~ msgstr "Přesunout dolů"
-
-#~ msgid "On zoom-in and zoom-out change the zoom by the defined zoom-factor."
-#~ msgstr ""
-#~ "Při přiblížení a oddálení změní měřítko podle zadaného faktoru zvětšení."
-
-#~ msgid "Zoom factor:"
-#~ msgstr "Faktor zvětšení:"
-
-#~ msgid "Visibility of the mouse-pointer."
-#~ msgstr "Viditelnost ukazatele myši."
-
-#~ msgid "Scale"
-#~ msgstr "Měřítko"
-
-#~ msgid "Keep"
-#~ msgstr "Ponechat"
-
-#~ msgid "Hide"
-#~ msgstr "Skrýt"
-
-#~ msgid "Track moving of the mouse."
-#~ msgstr "Sledovat pohyb myši."
-
-#~ msgid "Proportional"
-#~ msgstr "Proporcionální"
-
-#~ msgid "Centered"
-#~ msgstr "Na střed"
-
-#~ msgid "Push"
-#~ msgstr "Odeslat"
-
-#~ msgid "Disabled"
-#~ msgstr "Zakázáno"
