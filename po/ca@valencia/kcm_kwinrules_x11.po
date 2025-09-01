@@ -118,7 +118,7 @@ msgid ""
 "Specifying this will block more generic window settings from taking effect."
 msgstr ""
 "La propietat de la finestra no es veurà afectada i, per tant, s'utilitzarà "
-"la gestió predeterminada per a ella.\n"
+"la gestió predeterminada per ella.\n"
 "En especificar açò, es blocaran que tinguen efecte les opcions més "
 "genèriques de finestra."
 
@@ -550,7 +550,7 @@ msgstr "Accepta el focus"
 #: rulesmodel.cpp:681
 #, kde-format
 msgid "Controls whether or not the window becomes focused when clicked."
-msgstr "Controla si la finestra prendrà el focus o no quan s'hi fa clic."
+msgstr "Controla si la finestra prendrà el focus o no quan s'hi clica."
 
 #: rulesmodel.cpp:685
 #, kde-format
@@ -638,7 +638,7 @@ msgstr "Finestra normal"
 #: rulesmodel.cpp:812
 #, kde-format
 msgid "Dialog window"
-msgstr "Finestra de diàleg"
+msgstr "Diàleg"
 
 #: rulesmodel.cpp:813
 #, kde-format
@@ -818,7 +818,7 @@ msgstr ""
 #: ui/FileDialogLoader.qml:15
 #, kde-format
 msgid "Select File"
-msgstr "Seleccioneu un fitxer"
+msgstr "Trieu un fitxer"
 
 #: ui/FileDialogLoader.qml:27
 #, kde-format
@@ -854,12 +854,13 @@ msgstr "Actualment no s'han definit regles per a finestres específiques"
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Click <interface>Add New…</interface> to add some"
-msgstr "Feu clic en el botó <interface>Afig nova…</interface> per a afegir-ne"
+msgstr ""
+"Cliqueu damunt del botó <interface>Afig nova…</interface> per a afegir-ne"
 
 #: ui/main.qml:97
 #, kde-format
 msgid "Select the rules to export"
-msgstr "Seleccioneu les regles que s'han d'exportar"
+msgstr "Trieu les regles que s'han d'exportar"
 
 #: ui/main.qml:101
 #, kde-format
@@ -930,8 +931,9 @@ msgid ""
 "Click the <interface>Add Property...</interface> button below to add some "
 "window properties that will be affected by the rule"
 msgstr ""
-"Feu clic en el botó <interface>Afig propietat…</interface> de davall per a "
-"afegir diverses propietats de les finestres que seran afectades per la regla"
+"Cliqueu damunt del botó <interface>Afig propietat…</interface> de davall per "
+"a afegir diverses propietats de les finestres que seran afectades per la "
+"regla"
 
 #: ui/RulesEditor.qml:88
 #, kde-format
