@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-29 00:43+0000\n"
+"POT-Creation-Date: 2025-09-24 02:36+0000\n"
 "PO-Revision-Date: 2025-07-30 13:27+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -3176,19 +3176,19 @@ msgstr "Dialogue"
 msgid "..."
 msgstr "..."
 
-#: sm.cpp:480
+#: sm.cpp:431
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel Logout"
 msgstr "Annuler de la déconnexion"
 
-#: sm.cpp:481
+#: sm.cpp:432
 #, kde-format
 msgctxt "@action::button"
 msgid "Log Out Anyway"
 msgstr "Se déconnecter quand même"
 
-#: sm.cpp:527
+#: sm.cpp:478
 #, kde-format
 msgid ""
 "The following applications did not close:\n"

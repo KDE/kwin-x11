@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-29 00:43+0000\n"
+"POT-Creation-Date: 2025-09-24 02:36+0000\n"
 "PO-Revision-Date: 2010-01-30 17:37+0100\n"
 "Last-Translator: Bozidar Proevski <bobibobi@freemail.com.mk>\n"
 "Language-Team: Macedonian <mkde-l10n@lists.sourceforge.net>\n"
@@ -3232,19 +3232,19 @@ msgstr "Дијалог за конфигурација"
 msgid "..."
 msgstr ""
 
-#: sm.cpp:480
+#: sm.cpp:431
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel Logout"
 msgstr ""
 
-#: sm.cpp:481
+#: sm.cpp:432
 #, kde-format
 msgctxt "@action::button"
 msgid "Log Out Anyway"
 msgstr ""
 
-#: sm.cpp:527
+#: sm.cpp:478
 #, kde-format
 msgid ""
 "The following applications did not close:\n"

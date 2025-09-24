@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-29 00:43+0000\n"
+"POT-Creation-Date: 2025-09-24 02:36+0000\n"
 "PO-Revision-Date: 2024-09-26 14:15+0000\n"
 "Last-Translator: Gummi <gudmundure@gmail.com>\n"
 "Language-Team: Icelandic <kde-i18n-doc@kde.org>\n"
@@ -3135,19 +3135,19 @@ msgstr "Svargluggi"
 msgid "..."
 msgstr "..."
 
-#: sm.cpp:480
+#: sm.cpp:431
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel Logout"
 msgstr "Hætta við útskráningu"
 
-#: sm.cpp:481
+#: sm.cpp:432
 #, kde-format
 msgctxt "@action::button"
 msgid "Log Out Anyway"
 msgstr "Skrá samt út"
 
-#: sm.cpp:527
+#: sm.cpp:478
 #, fuzzy, kde-format
 #| msgid ""
 #| "The following applications did not close:\n"
