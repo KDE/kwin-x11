@@ -70,7 +70,6 @@ BlurEffect::BlurEffect()
         return;
     } else {
         m_contrastPass.mvpMatrixLocation = m_contrastPass.shader->uniformLocation("modelViewProjectionMatrix");
-        m_contrastPass.colorMatrixLocation = m_contrastPass.shader->uniformLocation("colorMatrix");
         m_contrastPass.offsetLocation = m_contrastPass.shader->uniformLocation("offset");
         m_contrastPass.halfpixelLocation = m_contrastPass.shader->uniformLocation("halfpixel");
     }
@@ -83,7 +82,6 @@ BlurEffect::BlurEffect()
         return;
     } else {
         m_roundedContrastPass.mvpMatrixLocation = m_roundedContrastPass.shader->uniformLocation("modelViewProjectionMatrix");
-        m_roundedContrastPass.colorMatrixLocation = m_roundedContrastPass.shader->uniformLocation("colorMatrix");
         m_roundedContrastPass.offsetLocation = m_roundedContrastPass.shader->uniformLocation("offset");
         m_roundedContrastPass.halfpixelLocation = m_roundedContrastPass.shader->uniformLocation("halfpixel");
         m_roundedContrastPass.boxLocation = m_roundedContrastPass.shader->uniformLocation("box");
@@ -234,38 +232,6 @@ void BlurEffect::initBlurStrengthValues()
             blurStrengthValues.append({i + 1, blurOffsets[i].minOffset + (offsetDifference / iterationNumber) * j});
         }
     }
-}
-
-QMatrix4x4 BlurEffect::colorMatrix(qreal contrast, qreal saturation)
-{
-    QMatrix4x4 satMatrix; // saturation
-    QMatrix4x4 contMatrix; // contrast
-
-    // Saturation matrix
-    if (!qFuzzyCompare(saturation, 1.0)) {
-        const qreal rval = (1.0 - saturation) * .2126;
-        const qreal gval = (1.0 - saturation) * .7152;
-        const qreal bval = (1.0 - saturation) * .0722;
-
-        satMatrix = QMatrix4x4(rval + saturation, rval, rval, 0.0,
-                               gval, gval + saturation, gval, 0.0,
-                               bval, bval, bval + saturation, 0.0,
-                               0, 0, 0, 1.0);
-    }
-
-    // Contrast Matrix
-    if (!qFuzzyCompare(contrast, 1.0)) {
-        const float transl = (1.0 - contrast) / 2.0;
-
-        contMatrix = QMatrix4x4(contrast, 0, 0, 0.0,
-                                0, contrast, 0, 0.0,
-                                0, 0, contrast, 0.0,
-                                transl, transl, transl, 1.0);
-    }
-
-    QMatrix4x4 colorMatrix = contMatrix * satMatrix;
-
-    return colorMatrix;
 }
 
 void BlurEffect::reconfigure(ReconfigureFlags flags)
@@ -859,8 +825,6 @@ void BlurEffect::blur(const RenderTarget &renderTarget, const RenderViewport &vi
         QMatrix4x4 projectionMatrix = viewport.projectionMatrix();
         projectionMatrix.translate(deviceBackgroundRect.x(), deviceBackgroundRect.y());
 
-        const QMatrix4x4 colorMatrix = BlurEffect::colorMatrix(m_contrast, m_saturation);
-
         GLFramebuffer::popFramebuffer();
         const auto &read = renderInfo.framebuffers[1];
 
@@ -878,7 +842,6 @@ void BlurEffect::blur(const RenderTarget &renderTarget, const RenderViewport &vi
         const BorderRadius nativeCornerRadius = cornerRadius.scaled(viewport.scale()).rounded();
 
         m_roundedContrastPass.shader->setUniform(m_roundedContrastPass.mvpMatrixLocation, projectionMatrix);
-        m_roundedContrastPass.shader->setUniform(m_roundedContrastPass.colorMatrixLocation, colorMatrix);
         m_roundedContrastPass.shader->setUniform(m_roundedContrastPass.halfpixelLocation, halfpixel);
         m_roundedContrastPass.shader->setUniform(m_roundedContrastPass.offsetLocation, float(m_offset));
         m_roundedContrastPass.shader->setUniform(m_roundedContrastPass.boxLocation, QVector4D(nativeBox.x() + nativeBox.width() * 0.5, nativeBox.y() + nativeBox.height() * 0.5, nativeBox.width() * 0.5, nativeBox.height() * 0.5));
@@ -901,8 +864,6 @@ void BlurEffect::blur(const RenderTarget &renderTarget, const RenderViewport &vi
         QMatrix4x4 projectionMatrix = viewport.projectionMatrix();
         projectionMatrix.translate(deviceBackgroundRect.x(), deviceBackgroundRect.y());
 
-        QMatrix4x4 colorMatrix = BlurEffect::colorMatrix(m_contrast, m_saturation);
-
         GLFramebuffer::popFramebuffer();
         const auto &read = renderInfo.framebuffers[1];
 
@@ -910,7 +871,6 @@ void BlurEffect::blur(const RenderTarget &renderTarget, const RenderViewport &vi
                                   0.5 / read->colorAttachment()->height());
 
         m_contrastPass.shader->setUniform(m_contrastPass.mvpMatrixLocation, projectionMatrix);
-        m_contrastPass.shader->setUniform(m_contrastPass.colorMatrixLocation, colorMatrix);
         m_contrastPass.shader->setUniform(m_contrastPass.halfpixelLocation, halfpixel);
         m_contrastPass.shader->setUniform(m_contrastPass.offsetLocation, float(m_offset));
 
