@@ -81,7 +81,6 @@ public Q_SLOTS:
 
 private:
     void initBlurStrengthValues();
-    QMatrix4x4 colorMatrix(qreal contrast, qreal saturation);
     QRegion blurRegion(EffectWindow *w) const;
     QRegion decorationBlurRegion(const EffectWindow *w) const;
     bool decorationSupportsBlurBehind(const EffectWindow *w) const;
@@ -95,7 +94,6 @@ private:
     {
         std::unique_ptr<GLShader> shader;
         int mvpMatrixLocation;
-        int colorMatrixLocation;
         int offsetLocation;
         int halfpixelLocation;
     } m_contrastPass;
@@ -104,7 +102,6 @@ private:
     {
         std::unique_ptr<GLShader> shader;
         int mvpMatrixLocation;
-        int colorMatrixLocation;
         int offsetLocation;
         int halfpixelLocation;
         int boxLocation;
@@ -172,9 +169,6 @@ private:
 
     QMap<EffectWindow *, QMetaObject::Connection> windowBlurChangedConnections;
     std::unordered_map<EffectWindow *, BlurEffectData> m_windows;
-
-    const qreal m_contrast = 0.2;
-    const qreal m_saturation = 10;
 
     static BlurManagerInterface *s_blurManager;
     static QTimer *s_blurManagerRemoveTimer;
