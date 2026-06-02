@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:53+0000\n"
-"PO-Revision-Date: 2026-02-17 23:27-0500\n"
+"PO-Revision-Date: 2026-05-31 20:11-0400\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: ug\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -556,7 +556,7 @@ msgstr "چىمدىش يېڭىلاش"
 #, kde-format
 msgctxt "Current scale in pinch gesture"
 msgid "Scale"
-msgstr "نىسبىتى"
+msgstr "نىسبەت"
 
 #: debug_console.cpp:376
 #, kde-format
@@ -658,7 +658,7 @@ msgstr "ئۈزچات"
 #, kde-format
 msgctxt "The hardware switch got turned off"
 msgid "Off"
-msgstr "تاقا"
+msgstr "تاقاق"
 
 #: debug_console.cpp:481
 #, kde-format
@@ -1028,7 +1028,7 @@ msgstr "سازلاش تىزگىن سۇپىسىدىن چېكىن"
 #: debug_console.ui:54
 #, kde-format
 msgid "Windows"
-msgstr "كۆزنەك"
+msgstr "Windows"
 
 #. i18n: ectx: attribute (title), widget (QWidget, input)
 #: debug_console.ui:68
@@ -1188,7 +1188,7 @@ msgstr "توختاتماقچى بولغان پىروگراممىنىڭ كىمل�
 #: helpers/killer/killer.cpp:164
 #, kde-format
 msgid "pid"
-msgstr "PID"
+msgstr "pid"
 
 #: helpers/killer/killer.cpp:166
 #, kde-format
@@ -1522,7 +1522,7 @@ msgstr "تولۇق ئېكران كۆزنىكى"
 #: plugins/scale/package/contents/ui/config.ui:17
 #, kde-format
 msgid "Duration:"
-msgstr "مۇددىتى:"
+msgstr "داۋاملىشىش ۋاقتى:"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_Duration)
 #: plugins/glide/glide_config.ui:32
@@ -2144,7 +2144,7 @@ msgid ""
 "Create screen shot with left click or enter.\n"
 "Escape or right click to cancel."
 msgstr ""
-"چاشقىنەك سول توپچىسى چېكىلىپ ياكى enter بېسىلىپ، ئېكران تۇتۇلىدۇ.\n"
+"چاشقىنەك سول توپچىسى چېكىلىپ ياكى enter بېسىلىپ، ئېكران تۇتىلىدۇ.\n"
 "چاشقىنەك ئوڭ توپچىسى چېكىلسە ياكى Escape بېسىلسا ۋاز كېچىدۇ."
 
 #: plugins/showfps/qml/main-fallback.qml:26 plugins/showfps/qml/main.qml:192
