@@ -2137,7 +2137,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "This effect is not a benchmark"
-msgstr "هذا التأثير ليس معياراً قياسيا"
+msgstr "هذا التأثير ليس معيارًا قياسيا"
 
 #: plugins/showfps/qml/main.qml:110
 #, kde-format
@@ -2784,7 +2784,7 @@ msgstr "نوع القاعدة للنشاط"
 #: rulesettings.kcfg:187
 #, kde-format
 msgid "Maximized vertically"
-msgstr "مكبّرة عمودياً"
+msgstr "مكبّرة عموديًا"
 
 #. i18n: ectx: label, entry (maximizevertrule), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:191
@@ -2796,7 +2796,7 @@ msgstr "نوع القاعدة لكبّر النّافذة عموديًا"
 #: rulesettings.kcfg:198
 #, kde-format
 msgid "Maximized horizontally"
-msgstr "مكبّرة أفقياً"
+msgstr "مكبّرة أفقيًا"
 
 #. i18n: ectx: label, entry (maximizehorizrule), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:202
@@ -3832,7 +3832,7 @@ msgstr ""
 "وما هو مُشغل OpenGL والتأثيرات قيد التشغيل. \n"
 "الرجاء نشر المعلومات المتوفرة أسفل هذا الملحق التمهيدي إلى خدمة حاوية "
 "اللصق \n"
-"مثل https://paste.kde.org بدلاً من اللصق في موضوع الدعم. \n"
+"مثل https://paste.kde.org بدلًا من اللصق في موضوع الدعم. \n"
 
 #: xwayland/xwaylandlauncher.cpp:272
 #, kde-format

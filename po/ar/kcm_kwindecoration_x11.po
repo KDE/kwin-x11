@@ -262,7 +262,7 @@ msgstr "حدود ضخمة للنوافذ"
 #: utils.cpp:32
 #, kde-format
 msgid "Very huge window borders"
-msgstr "حدود ضخمة جداً للنوافذ"
+msgstr "حدود ضخمة جدًا للنوافذ"
 
 #: utils.cpp:33
 #, kde-format

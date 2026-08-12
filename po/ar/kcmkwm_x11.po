@@ -101,7 +101,7 @@ msgid ""
 "and falls back to \"Activate, raise and pass click\" instead"
 msgstr ""
 "لاحظ أن \"نشّط و مرّر النقرة وارفع عند الإفلات\" لا يعمل على اكس11،  ويعود إلى "
-"\"نشّط، ارفع و مرّر النقرة\" بدلاً من ذلك"
+"\"نشّط، ارفع و مرّر النقرة\" بدلًا من ذلك"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
@@ -765,7 +765,7 @@ msgstr ""
 "margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
 "block-indent:0; text-indent:0px;\"><span style=\" font-style:italic;\">عالي:"
 "</span>  تنشيط النوافذ الجديدة فقط إذا لم تكن هناك نافذة نشطة حاليًا أو إذا "
-"كانت تنتمي إلى التطبيق النشط حاليًا. ربما لا يكون هذا الإعداد قابلاً للاستخدام "
+"كانت تنتمي إلى التطبيق النشط حاليًا. ربما لا يكون هذا الإعداد قابلًا للاستخدام "
 "حقًا عند عدم استخدام سياسة تركيز الفأرة.</li><li style=\" margin-top:0px; "
 "margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
 "text-indent:0px;\"><span style=\" font-style:italic;\">متطرف:</span> يجب على "
@@ -843,7 +843,7 @@ msgid ""
 "When this option is enabled, a window in the background will automatically "
 "come to the front when the mouse pointer has been over it for some time."
 msgstr ""
-"إذا كان هذا الخيار ممكّن، فإن أية نافذة في الخلفية سوف تنقل آليّاً إلى الأمام "
+"إذا كان هذا الخيار ممكّن، فإن أية نافذة في الخلفية سوف تنقل آليًّا إلى الأمام "
 "عندما تضع مؤشر الفأرة فوقها لفترة من الزمن."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoRaise)
@@ -859,7 +859,7 @@ msgid ""
 "This is the delay after which the window that the mouse pointer is over will "
 "automatically come to the front."
 msgstr ""
-"هذا هو التأخير الذي تُنقل بعده أي نافذة التي يوجد فوقها مؤشر الفأرة آليّاً إلى "
+"هذا هو التأخير الذي تُنقل بعده أي نافذة التي يوجد فوقها مؤشر الفأرة آليًّا إلى "
 "الأمام."
 
 #. i18n: ectx: property (text), widget (QLabel, multiscreenBehaviorLabel)
@@ -1256,7 +1256,7 @@ msgstr ""
 "الفأرة. <br/> <strong> تحذير: </strong> <em> التركيز على منع السرقة </em> و "
 "<em> صندوق الألسنة (\"Alt + Tab\") </em> تتعارض مع سياسة التنشيط ولن تعمل. "
 "من المحتمل جدًا أنك تريد استخدام <em> التركيز يتبع الفأرة (أولوية الفأرة) </"
-"em> بدلاً من ذلك!"
+"em> بدلًا من ذلك!"
 
 #: windows.cpp:107
 #, kde-format
@@ -1273,7 +1273,7 @@ msgstr ""
 "قديمة غير مُدارة. <br/> <strong> تحذير: </strong> <em>منع سرقة التركيز </em> "
 "و <em> صندوق الألسنة ('Alt + Tab') </em> تتعارض مع سياسة التنشيط ولن تعمل. "
 "من المحتمل جدًا أنك تريد استخدام <em> التركيز يتبع الفأرة (أولوية الفأرة) </"
-"em> بدلاً من ذلك!"
+"em> بدلًا من ذلك!"
 
 #~ msgid "&Special windows:"
 #~ msgstr "ال&نوافذ الخاصة:"
