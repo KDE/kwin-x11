@@ -4,33 +4,36 @@
 # SPDX-FileCopyrightText: 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2023, 2024 Vít Pelčák <vit@pelcak.org>
 # Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012.
 # SPDX-FileCopyrightText: 2021, 2022, 2023, 2024 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2026 Libor Filípek <libor.filipek@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-22 02:44+0000\n"
-"PO-Revision-Date: 2024-09-27 11:45+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2026-08-13 11:12+0200\n"
+"Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 24.08.1\n"
+"X-Generator: Lokalize 26.04.3\n"
 "X-Language: cs_CZ\n"
 "X-Source-Language: en_US\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Miroslav Flídr,Lukáš Tinkl,Jakub Friedl,David Kolibáč"
+msgstr "Miroslav Flídr,Lukáš Tinkl,Jakub Friedl,David Kolibáč,Libor Filípek"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "flidr@kky.zcu.cz,lukas@kde.org,jfriedl@suse.cz,david@kolibac.cz"
+msgstr ""
+"flidr@kky.zcu.cz,lukas@kde.org,jfriedl@suse.cz,david@kolibac.cz,libor."
+"filipek@gmail.com"
 
 #: compositor_wayland.cpp:325 compositor_x11.cpp:459
 #, kde-format
@@ -68,75 +71,83 @@ msgstr "GLX/OpenGL není dostupné."
 #: core/iccprofile.cpp:252
 #, kde-format
 msgid "Failed to open ICC profile \"%1\""
-msgstr ""
+msgstr "Nelze otevřít ICC profil \"%1\""
 
 #: core/iccprofile.cpp:254
 #, kde-format
 msgid "ICC profile \"%1\" doesn't exist"
-msgstr ""
+msgstr "Profil ICC \"%1\" neexistuje"
 
 #: core/iccprofile.cpp:258
 #, kde-format
 msgid "ICC profile \"%1\" is not usable for displays"
-msgstr ""
+msgstr "Profil ICC \"%1\" nelze použít pro displeje"
 
 #: core/iccprofile.cpp:261
 #, kde-format
 msgid ""
 "ICC profile \"%1\" has unsupported connection space, only XYZ is supported"
 msgstr ""
+"Profil ICC \"%1\" obsahuje nepodporovaný prostor propojení; podporován je "
+"pouze XYZ"
 
 #: core/iccprofile.cpp:264
 #, kde-format
 msgid "ICC profile \"%1\" is broken, input/output color space isn't RGB"
 msgstr ""
+"Profil ICC \"%1\" je poškozen, vstupní/výstupní barevný prostor není RGB"
 
 #: core/iccprofile.cpp:283
 #, kde-format
 msgid "ICC profile \"%1\" is broken, it has no whitepoint"
-msgstr ""
+msgstr "Profil ICC \"%1\" je poškozen, neobsahuje bílý bod"
 
 #: core/iccprofile.cpp:286
 #, kde-format
 msgid "ICC profile \"%1\" is broken, its whitepoint is invalid"
-msgstr ""
+msgstr "Profil ICC \"%1\" je poškozen, jeho bílý bod je neplatný"
 
 #: core/iccprofile.cpp:299
 #, kde-format
 msgid ""
 "ICC profile \"%1\" is broken, parsing chromatic adaptation matrix failed"
 msgstr ""
+"Profil ICC \"%1\" je poškozen, analýza matice chromatické adaptace se "
+"nezdařila"
 
 #: core/iccprofile.cpp:304
 #, kde-format
 msgid ""
 "ICC profile \"%1\" is broken, inverting chromatic adaptation matrix failed"
 msgstr ""
+"Profil ICC \"%1\" je poškozen, inverze matice chromatické adaptace se "
+"nezdařila"
 
 #: core/iccprofile.cpp:317
 #, kde-format
 msgid "ICC profile \"%1\" is broken, it has no primaries"
-msgstr ""
+msgstr "Profil ICC \"%1\" je poškozen, neobsahuje žádné primární barvy"
 
 #: core/iccprofile.cpp:332
 #, kde-format
 msgid "ICC profile \"%1\" is broken, couldn't calculate its primaries"
 msgstr ""
+"Profil ICC \"%1\" je poškozen, nebylo možné vypočítat jeho primární barvy"
 
 #: core/iccprofile.cpp:341
 #, kde-format
 msgid "ICC profile \"%1\" is broken, its primaries are invalid"
-msgstr ""
+msgstr "Profil ICC \"%1\" je poškozen, jeho primární barvy jsou neplatné"
 
 #: core/iccprofile.cpp:357
 #, kde-format
 msgid "ICC profile \"%1\" with only BToD tags isn't supported"
-msgstr ""
+msgstr "Profil ICC \"%1\" obsahující pouze značky BToD není podporován"
 
 #: core/iccprofile.cpp:396
 #, kde-format
 msgid "Color profile is missing TRC tags"
-msgstr ""
+msgstr "V barevném profilu chybí značky TRC"
 
 #: debug_console.cpp:79
 #, kde-format
@@ -337,7 +348,7 @@ msgstr "Rozdíl"
 #, kde-format
 msgctxt "The relative mouse movement"
 msgid "Delta (not accelerated)"
-msgstr ""
+msgstr "Rozdíl (bez zrychlení)"
 
 #: debug_console.cpp:199
 #, kde-format
@@ -349,7 +360,7 @@ msgstr "Globální pozice"
 #, kde-format
 msgctxt "A mouse pointer button press event"
 msgid "Pointer Button Press"
-msgstr ""
+msgstr "Stisknutí tlačítka ukazatele"
 
 #: debug_console.cpp:216 debug_console.cpp:223
 #, kde-format
@@ -361,7 +372,7 @@ msgstr "Tlačítko"
 #, kde-format
 msgctxt "A button in a mouse press/release event"
 msgid "Native Button code"
-msgstr ""
+msgstr "Kód nativního tlačítka"
 
 #: debug_console.cpp:218 debug_console.cpp:225
 #, kde-format
@@ -373,13 +384,13 @@ msgstr "Stisknutá tlačítka"
 #, kde-format
 msgctxt "A mouse pointer button release event"
 msgid "Pointer Button Release"
-msgstr ""
+msgstr "Uvolnění tlačítka ukazatele"
 
 #: debug_console.cpp:237
 #, kde-format
 msgctxt "A mouse pointer axis (wheel) event"
 msgid "Pointer Axis"
-msgstr ""
+msgstr "Osa ukazatele"
 
 #: debug_console.cpp:240
 #, kde-format
@@ -411,7 +422,7 @@ msgctxt ""
 "The normalized V120 angle delta of a pointer axis event. V120 is a technical "
 "term and shouldn't be changed."
 msgid "Delta (V120)"
-msgstr ""
+msgstr "Rozdíl (V120)"
 
 #: debug_console.cpp:259
 #, kde-format
@@ -453,13 +464,13 @@ msgstr "Meta"
 #, kde-format
 msgctxt "A keyboard modifier"
 msgid "Keypad"
-msgstr ""
+msgstr "Klávesnice"
 
 #: debug_console.cpp:291
 #, kde-format
 msgctxt "A keyboard modifier"
 msgid "Group-switch"
-msgstr ""
+msgstr "Přepínač skupin"
 
 #: debug_console.cpp:297
 #, kde-format
@@ -471,13 +482,13 @@ msgstr "Opakovat"
 #, kde-format
 msgctxt "The code reported by the kernel"
 msgid "Keycode"
-msgstr ""
+msgstr "Kód klávesy"
 
 #: debug_console.cpp:302
 #, kde-format
 msgctxt "Key according to Qt"
 msgid "Qt::Key code"
-msgstr ""
+msgstr "Qt::Kód klávesy"
 
 #: debug_console.cpp:303
 #, kde-format
@@ -501,13 +512,13 @@ msgstr "Modifikátory"
 #, kde-format
 msgctxt "A touch down event"
 msgid "Touch down"
-msgstr ""
+msgstr "Výběr"
 
 #: debug_console.cpp:319 debug_console.cpp:334 debug_console.cpp:349
 #, kde-format
 msgctxt "The id of the touch point in the touch event"
 msgid "Point identifier"
-msgstr ""
+msgstr "Identifikátor bodu"
 
 #: debug_console.cpp:320 debug_console.cpp:335
 #, kde-format
@@ -519,19 +530,19 @@ msgstr "Globální pozice"
 #, kde-format
 msgctxt "A touch motion event"
 msgid "Touch Motion"
-msgstr ""
+msgstr "Dotykové ovládání"
 
 #: debug_console.cpp:347
 #, kde-format
 msgctxt "A touch up event"
 msgid "Touch Up"
-msgstr ""
+msgstr "Doladění"
 
 #: debug_console.cpp:360
 #, kde-format
 msgctxt "A pinch gesture is started"
 msgid "Pinch start"
-msgstr ""
+msgstr "Začátek přiblížení prstů"
 
 #: debug_console.cpp:362
 #, kde-format
@@ -543,7 +554,7 @@ msgstr "Počet prstů"
 #, kde-format
 msgctxt "A pinch gesture is updated"
 msgid "Pinch update"
-msgstr ""
+msgstr "Aktualizace přiblížení prstů"
 
 #: debug_console.cpp:375
 #, kde-format
@@ -573,19 +584,19 @@ msgstr "Rozdíl y"
 #, kde-format
 msgctxt "A pinch gesture ended"
 msgid "Pinch end"
-msgstr ""
+msgstr "Konec přiblížení prstů"
 
 #: debug_console.cpp:401
 #, kde-format
 msgctxt "A pinch gesture got cancelled"
 msgid "Pinch cancelled"
-msgstr ""
+msgstr "Přiblížení prstů zrušeno"
 
 #: debug_console.cpp:413
 #, kde-format
 msgctxt "A swipe gesture is started"
 msgid "Swipe start"
-msgstr ""
+msgstr "Začátek přejetí prstu"
 
 #: debug_console.cpp:415
 #, kde-format
@@ -597,7 +608,7 @@ msgstr "Počet prstů"
 #, kde-format
 msgctxt "A swipe gesture is updated"
 msgid "Swipe update"
-msgstr ""
+msgstr "Aktualizace přejetí prstu"
 
 #: debug_console.cpp:428
 #, kde-format
@@ -615,19 +626,19 @@ msgstr "Rozdíl y"
 #, kde-format
 msgctxt "A swipe gesture ended"
 msgid "Swipe end"
-msgstr ""
+msgstr "Konec přejetí prstu"
 
 #: debug_console.cpp:452
 #, kde-format
 msgctxt "A swipe gesture got cancelled"
 msgid "Swipe cancelled"
-msgstr ""
+msgstr "Přejetí prstu zrušeno"
 
 #: debug_console.cpp:464
 #, kde-format
 msgctxt "A hardware switch (e.g. notebook lid) got toggled"
 msgid "Switch toggled"
-msgstr ""
+msgstr "Přepínač byl přepnut"
 
 #: debug_console.cpp:470
 #, kde-format
@@ -668,12 +679,12 @@ msgstr "Stav"
 #: debug_console.cpp:495
 #, kde-format
 msgid "Tablet Tool Proximity"
-msgstr ""
+msgstr "Přiblížení nástroje tabletu"
 
 #: debug_console.cpp:496
 #, kde-format
 msgid "Proximity"
-msgstr ""
+msgstr "Přiblížení"
 
 #: debug_console.cpp:496
 #, kde-format
@@ -704,7 +715,7 @@ msgstr "Rotace"
 #: debug_console.cpp:510
 #, kde-format
 msgid "Tablet Tool Axis"
-msgstr ""
+msgstr "Osa nástroje tabletu"
 
 #: debug_console.cpp:516 debug_console.cpp:533
 #, kde-format
@@ -719,7 +730,7 @@ msgstr "Tlačítka"
 #: debug_console.cpp:526
 #, kde-format
 msgid "Tablet Tool Tip"
-msgstr ""
+msgstr "Tip nástroje tabletu"
 
 #: debug_console.cpp:527
 #, kde-format
@@ -765,7 +776,7 @@ msgstr "Tlačítko tabletu"
 #: debug_console.cpp:570
 #, kde-format
 msgid "Tablet Pad Strip"
-msgstr ""
+msgstr "Pás tabletu"
 
 #: debug_console.cpp:571 debug_console.cpp:585
 #, kde-format
@@ -775,12 +786,12 @@ msgstr "Číslo"
 #: debug_console.cpp:573 debug_console.cpp:587
 #, kde-format
 msgid "isFinger"
-msgstr ""
+msgstr "Prst"
 
 #: debug_console.cpp:584
 #, kde-format
 msgid "Tablet Pad Ring"
-msgstr ""
+msgstr "Kroužek tabletu"
 
 #: debug_console.cpp:651
 #, kde-format
@@ -981,7 +992,7 @@ msgstr "Okna X11"
 #: debug_console.cpp:1270
 #, kde-format
 msgid "X11 Unmanaged Windows"
-msgstr ""
+msgstr "Nespravovaná okna X11"
 
 #: debug_console.cpp:1272
 #, kde-format
@@ -1009,7 +1020,7 @@ msgstr "Načíst"
 #: debug_console.ui:14
 #, kde-format
 msgid "Debug Console"
-msgstr ""
+msgstr "Ladící konzole"
 
 #. i18n: ectx: property (text), widget (QPushButton, quitButton)
 #: debug_console.ui:38
@@ -1075,7 +1086,7 @@ msgstr "Verze:"
 #: debug_console.ui:156
 #, kde-format
 msgid "Shading Language Version:"
-msgstr ""
+msgstr "Verze jazyka stínování:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: debug_console.ui:163
@@ -1105,7 +1116,7 @@ msgstr "Verze GLSL:"
 #: debug_console.ui:250
 #, kde-format
 msgid "Platform Extensions"
-msgstr ""
+msgstr "Rozšíření platformy"
 
 #. i18n: ectx: property (title), widget (QGroupBox, glExtensionsBox)
 #: debug_console.ui:266
@@ -1250,6 +1261,8 @@ msgid ""
 "<para><application>%1</application> is not responding. Do you want to "
 "terminate this application?</para>"
 msgstr ""
+"<para><application>%1</application> nereaguje. Chcete tuto aplikaci ukončit?"
+"</para>"
 
 #: helpers/killer/killer.cpp:236
 #, kde-kuit-format
@@ -1258,6 +1271,8 @@ msgid ""
 "<para>\"%1\" of <application>%2</application> is not responding. Do you want "
 "to terminate this application?</para>"
 msgstr ""
+"<para>\"%1\" z <application>%2</application> neodpovídá. Chcete tuto "
+"aplikaci ukončit?</para>"
 
 #: helpers/killer/killer.cpp:239
 #, kde-kuit-format
@@ -1310,6 +1325,9 @@ msgid ""
 "Select window to force close with left click or enter.\n"
 "Escape or right click to cancel."
 msgstr ""
+"Vyberte okno, které chcete násilně zavřít, levým tlačítkem myši nebo "
+"stisknutím klávesy Enter.\n"
+"Stisknutím klávesy Esc nebo kliknutím pravým tlačítkem myši akci zrušíte."
 
 #: main.cpp:185 plugins/mouseclick/mouseclick_config.cpp:40
 #: plugins/mousemark/mousemark_config.cpp:43
@@ -1420,7 +1438,7 @@ msgstr "Nahradit již běžící správce oken kompatibilní s ICCCM 2.0"
 #: main_x11.cpp:442
 #, kde-format
 msgid "Disable KActivities integration."
-msgstr ""
+msgstr "Zakázat integraci KActivities."
 
 #. i18n: ectx: property (text), widget (QLabel, labelConstantBlurDescription)
 #: plugins/blur/blur_config.ui:17
@@ -1454,6 +1472,9 @@ msgid ""
 "Select a position for color picking with left click or enter.\n"
 "Escape or right click to cancel."
 msgstr ""
+"Levým tlačítkem myši nebo stisknutím klávesy Enter vyberte místo pro výběr "
+"barvy.\n"
+"Stisknutím klávesy Esc nebo kliknutím pravým tlačítkem myši akci zrušíte."
 
 #. i18n: ectx: property (text), widget (QLabel, label_Strength)
 #: plugins/diminactive/diminactive_config.ui:17
@@ -1672,7 +1693,7 @@ msgstr "jméno"
 #, kde-format
 msgctxt "Note this is a KRunner keyword"
 msgid "appname"
-msgstr ""
+msgstr "appname"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:89
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:145
@@ -1960,7 +1981,7 @@ msgstr "Meta"
 #: plugins/mousemark/mousemark_config.ui:157
 #, kde-format
 msgid "Arrow draw modifier keys:"
-msgstr ""
+msgstr "Klávesy pro úpravu zamíření šipky:"
 
 #: plugins/nightlight/nightlightmanager.cpp:55
 #, kde-format
@@ -1978,7 +1999,7 @@ msgstr "Noční světlo bylo znovu zapnuto"
 #, kde-format
 msgctxt "Temporarily disable/reenable Night Light"
 msgid "Suspend/Resume Night Light"
-msgstr ""
+msgstr "Vypnutí/zapnutí nočního světla"
 
 #: plugins/nightlight/nightlightmanager.cpp:393
 #, kde-format
@@ -1995,14 +2016,14 @@ msgstr "Neznámý"
 #, kde-format
 msgctxt "@action Overview and Grid View are the name of KWin effects"
 msgid "Cycle through Overview and Grid View"
-msgstr ""
+msgstr "Přepínání mezi přehledovým zobrazením a zobrazením mřížky"
 
 #: plugins/overview/kcm/overvieweffectkcm.cpp:46
 #: plugins/overview/overvieweffect.cpp:135
 #, kde-format
 msgctxt "@action Grid View and Overview are the name of KWin effects"
 msgid "Cycle through Grid View and Overview"
-msgstr ""
+msgstr "Přepínání mezi zobrazením mřížky a přehledovým zobrazením"
 
 #: plugins/overview/kcm/overvieweffectkcm.cpp:53
 #, kde-format
@@ -2026,7 +2047,7 @@ msgstr "Ignorovat minimalizovaná okna:"
 #: plugins/overview/kcm/overvieweffectkcm.ui:36
 #, kde-format
 msgid "Organize windows in the Grid View:"
-msgstr ""
+msgstr "Uspořádání oken v zobrazení mřížky:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_FilterWindows)
 #: plugins/overview/kcm/overvieweffectkcm.ui:50
@@ -2038,7 +2059,7 @@ msgstr "Výsledky hledání zahrnují filtrovaná okna:"
 #, kde-format
 msgctxt "@action Grid View and Overview are the name of KWin effects"
 msgid "Cycle through Overview and Grid View"
-msgstr ""
+msgstr "Přepínání mezi přehledovým zobrazením a zobrazením mřížky"
 
 #: plugins/overview/overvieweffect.cpp:143
 #, kde-format
@@ -2101,13 +2122,13 @@ msgstr "Zavřít okno"
 #: plugins/scale/package/contents/ui/config.ui:46
 #, kde-format
 msgid "Window open scale:"
-msgstr ""
+msgstr "Měřítko otevřeného okna:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_OutScale)
 #: plugins/scale/package/contents/ui/config.ui:53
 #, kde-format
 msgid "Window close scale:"
-msgstr ""
+msgstr "Měřítko uzavřeného okna:"
 
 #: plugins/screenshot/screenshotdbusinterface2.cpp:525
 #, kde-format
@@ -2115,6 +2136,9 @@ msgid ""
 "Select window to screen shot with left click or enter.\n"
 "Escape or right click to cancel."
 msgstr ""
+"Levým tlačítkem myši nebo stisknutím klávesy Enter vyberte okno, které "
+"chcete zachytit.\n"
+"Stisknutím klávesy Esc nebo kliknutím pravým tlačítkem myši akci zrušíte."
 
 #: plugins/screenshot/screenshotdbusinterface2.cpp:543
 #, kde-format
@@ -2122,6 +2146,9 @@ msgid ""
 "Create screen shot with left click or enter.\n"
 "Escape or right click to cancel."
 msgstr ""
+"Snímek obrazovky vytvoříte kliknutím levým tlačítkem myši nebo stisknutím "
+"klávesy Enter.\n"
+"Stisknutím klávesy Esc nebo kliknutím pravým tlačítkem myši akci zrušíte."
 
 #: plugins/showfps/qml/main-fallback.qml:26 plugins/showfps/qml/main.qml:192
 #, kde-format
@@ -2157,7 +2184,7 @@ msgstr "Maximum FPS"
 #: plugins/slide/slide_config.ui:17
 #, kde-format
 msgid "Gap between desktops"
-msgstr ""
+msgstr "Vzdálenost mezi plochami"
 
 #. i18n: ectx: property (text), widget (QLabel, label_HorizontalGap)
 #: plugins/slide/slide_config.ui:23
@@ -2175,7 +2202,7 @@ msgstr "Svisle:"
 #: plugins/slide/slide_config.ui:72
 #, kde-format
 msgid "Slide desktop background"
-msgstr ""
+msgstr "Posun pozadí plochy"
 
 #: plugins/thumbnailaside/thumbnailaside.cpp:31
 #: plugins/thumbnailaside/thumbnailaside_config.cpp:50
@@ -2553,7 +2580,7 @@ msgstr "Celkový počet pravidel (zastaralé)"
 #: rulebooksettingsbase.kcfg:13
 #, kde-format
 msgid "Ordered list of rules groups"
-msgstr ""
+msgstr "Seřazený seznam skupin pravidel"
 
 #. i18n: ectx: label, entry (description), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:10
@@ -2577,7 +2604,7 @@ msgstr "Smazat toto pravidlo (pro použití při importech)"
 #: rulesettings.kcfg:20
 #, kde-format
 msgid "This rule is enabled"
-msgstr ""
+msgstr "Toto pravidlo je zapnuto"
 
 #. i18n: ectx: label, entry (wmclass), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:24
@@ -2589,7 +2616,7 @@ msgstr "Třída okna (aplikace)"
 #: rulesettings.kcfg:27
 #, kde-format
 msgid "Window class string match type"
-msgstr ""
+msgstr "Typ odpovídajícího řetězce třídy okna"
 
 #. i18n: ectx: label, entry (wmclasscomplete), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:33
@@ -2607,7 +2634,7 @@ msgstr "Role okna"
 #: rulesettings.kcfg:41
 #, kde-format
 msgid "Window role string match type"
-msgstr ""
+msgstr "Typ odpovídajícícho řetězce role okna"
 
 #. i18n: ectx: label, entry (title), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:48
@@ -2619,7 +2646,7 @@ msgstr "Titulek okna"
 #: rulesettings.kcfg:51
 #, kde-format
 msgid "Window title string match type"
-msgstr ""
+msgstr "Typ odpovídajícího řetězce názvu okna"
 
 #. i18n: ectx: label, entry (clientmachine), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:58
@@ -2631,7 +2658,7 @@ msgstr "Počítač (název)"
 #: rulesettings.kcfg:61
 #, kde-format
 msgid "Machine string match type"
-msgstr ""
+msgstr "Typ odpovídajícího řetězce stroje"
 
 #. i18n: ectx: label, entry (types), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:68
@@ -2661,7 +2688,7 @@ msgstr "Umístění okna"
 #: rulesettings.kcfg:87
 #, kde-format
 msgid "Window position rule type"
-msgstr ""
+msgstr "Typ pravidla pro polohu okna"
 
 #. i18n: ectx: label, entry (size), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:94
@@ -2673,7 +2700,7 @@ msgstr "Velikost okna"
 #: rulesettings.kcfg:97
 #, kde-format
 msgid "Window size rule type"
-msgstr ""
+msgstr "Typ pravidla pro velikost okna"
 
 #. i18n: ectx: label, entry (minsize), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:104
@@ -2709,7 +2736,7 @@ msgstr "Aktivní krytí"
 #: rulesettings.kcfg:128
 #, kde-format
 msgid "Active opacity rule type"
-msgstr ""
+msgstr "Typ pravidla aktivní neprůhlednosti"
 
 #. i18n: ectx: label, entry (opacityinactive), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:133
@@ -2721,7 +2748,7 @@ msgstr "Neaktivní krytí"
 #: rulesettings.kcfg:139
 #, kde-format
 msgid "Inactive opacity rule type"
-msgstr ""
+msgstr "Typ pravidla neaktivní neprůhlednosti"
 
 #. i18n: ectx: label, entry (ignoregeometry), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:144
@@ -2733,7 +2760,7 @@ msgstr "Ignorovat požadovanou geometrii"
 #: rulesettings.kcfg:148
 #, kde-format
 msgid "Ignore requested geometry rule type"
-msgstr ""
+msgstr "Ignorovat požadovaný typ pravidla geometrie"
 
 #. i18n: ectx: label, entry (desktops), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:155
@@ -2757,7 +2784,7 @@ msgstr "Číslo obrazovky"
 #: rulesettings.kcfg:170
 #, kde-format
 msgid "Screen number rule type"
-msgstr ""
+msgstr "Typ pravidla pro číslo obrazovky"
 
 #. i18n: ectx: label, entry (activity), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:177
@@ -2793,7 +2820,7 @@ msgstr "Maximalizované vodorovně"
 #: rulesettings.kcfg:202
 #, kde-format
 msgid "Maximized horizontally rule type"
-msgstr ""
+msgstr "Typ pravidla pro maximalizaci vodorovně"
 
 #. i18n: ectx: label, entry (minimize), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:209
@@ -2805,7 +2832,7 @@ msgstr "Minimalizované"
 #: rulesettings.kcfg:213
 #, kde-format
 msgid "Minimized rule type"
-msgstr ""
+msgstr "Typ pravidla pro minimalizaci"
 
 #. i18n: ectx: label, entry (shade), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:220
@@ -2817,7 +2844,7 @@ msgstr "Sbalené"
 #: rulesettings.kcfg:224
 #, kde-format
 msgid "Shaded rule type"
-msgstr ""
+msgstr "Typ pravidla stínování"
 
 #. i18n: ectx: label, entry (skiptaskbar), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:231
@@ -2829,7 +2856,7 @@ msgstr "Přeskočit pruh úloh"
 #: rulesettings.kcfg:235
 #, kde-format
 msgid "Skip taskbar rule type"
-msgstr ""
+msgstr "Typ pravidla pro přeskočení pruhu úloh"
 
 #. i18n: ectx: label, entry (skippager), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:242
@@ -2841,7 +2868,7 @@ msgstr "Přeskočit přepínač ploch"
 #: rulesettings.kcfg:246
 #, kde-format
 msgid "Skip pager rule type"
-msgstr ""
+msgstr "Typ pravidla pro přeskočení přepínače ploch"
 
 #. i18n: ectx: label, entry (skipswitcher), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:253
@@ -2853,7 +2880,7 @@ msgstr "Přeskočit přepínač"
 #: rulesettings.kcfg:257
 #, kde-format
 msgid "Skip switcher rule type"
-msgstr ""
+msgstr "Typ pravidla pro přeskočení přepínače"
 
 #. i18n: ectx: label, entry (above), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:264
@@ -2865,7 +2892,7 @@ msgstr "Ponechat nad"
 #: rulesettings.kcfg:268
 #, kde-format
 msgid "Keep above rule type"
-msgstr ""
+msgstr "Typ pravidla pro ponechání nad"
 
 #. i18n: ectx: label, entry (below), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:275
@@ -2877,7 +2904,7 @@ msgstr "Ponechat pod"
 #: rulesettings.kcfg:279
 #, kde-format
 msgid "Keep below rule type"
-msgstr ""
+msgstr "Typ pravidla pro ponechání pod"
 
 #. i18n: ectx: label, entry (fullscreen), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:286
@@ -2889,7 +2916,7 @@ msgstr "Celá obrazovka"
 #: rulesettings.kcfg:290
 #, kde-format
 msgid "Fullscreen rule type"
-msgstr ""
+msgstr "Typ pravidla pro celou obrazovku"
 
 #. i18n: ectx: label, entry (noborder), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:297
@@ -2901,19 +2928,19 @@ msgstr "Bez titulku a rámu"
 #: rulesettings.kcfg:301
 #, kde-format
 msgid "No titlebar rule type"
-msgstr ""
+msgstr "Typ pravidla pro stav bez titulku a rámu"
 
 #. i18n: ectx: label, entry (decocolor), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:308
 #, kde-format
 msgid "Titlebar color and scheme"
-msgstr ""
+msgstr "Barva a schéma titulku"
 
 #. i18n: ectx: label, entry (decocolorrule), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:311
 #, kde-format
 msgid "Titlebar color rule type"
-msgstr ""
+msgstr "Typ pravidla barvy a schématu titulku"
 
 #. i18n: ectx: label, entry (blockcompositing), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:316
@@ -2925,7 +2952,7 @@ msgstr "Zablokovat kompozici"
 #: rulesettings.kcfg:320
 #, kde-format
 msgid "Block Compositing rule type"
-msgstr ""
+msgstr "Typ pravidla pro kompozici bloků"
 
 #. i18n: ectx: label, entry (fsplevel), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:325
@@ -2937,7 +2964,7 @@ msgstr "Prevence ztráty zaměření"
 #: rulesettings.kcfg:331
 #, kde-format
 msgid "Focus stealing prevention rule type"
-msgstr ""
+msgstr "Typ pravidla prevence ztráty zaměření"
 
 #. i18n: ectx: label, entry (fpplevel), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:336
@@ -2949,7 +2976,7 @@ msgstr "Ochrana zaměření"
 #: rulesettings.kcfg:342
 #, kde-format
 msgid "Focus protection rule type"
-msgstr ""
+msgstr "Typ pravidla ochrany zaměření"
 
 #. i18n: ectx: label, entry (acceptfocus), group ($(ruleDescriptionOrNumber))
 #: rulesettings.kcfg:347
@@ -3126,6 +3153,9 @@ msgid ""
 "%1\n"
 "Logging out anyway in 2 minutes."
 msgstr ""
+"Následující aplikace nebyly ukončeny:\n"
+"%1\n"
+"Za 2 minuty dojde k odhlášení."
 
 #: tabbox/clientmodel.cpp:58
 #, kde-format
@@ -3441,7 +3471,7 @@ msgstr "Okno na celou obrazovku"
 #: useractions.cpp:938
 #, kde-format
 msgid "Toggle Window Titlebar and Frame"
-msgstr ""
+msgstr "Přepínání titulku okna a rámečku"
 
 #: useractions.cpp:940
 #, kde-format
@@ -3586,22 +3616,22 @@ msgstr "Podržet okno na všech plochách"
 #: useractions.cpp:998
 #, kde-format
 msgid "Custom Quick Tile Window to the Left"
-msgstr ""
+msgstr "Vlastní okno rychlé dlaždice vlevo"
 
 #: useractions.cpp:1000
 #, kde-format
 msgid "Custom Quick Tile Window to the Right"
-msgstr ""
+msgstr "Vlastní okno rychlé dlaždice vpravo"
 
 #: useractions.cpp:1002
 #, kde-format
 msgid "Custom Quick Tile Window to the Top"
-msgstr ""
+msgstr "Vlastní okno rychlé dlaždice nahoru"
 
 #: useractions.cpp:1004
 #, kde-format
 msgid "Custom Quick Tile Window to the Bottom"
-msgstr ""
+msgstr "Vlastní okno rychlé dlaždice dolů"
 
 #: useractions.cpp:1015
 #, kde-format
@@ -3771,27 +3801,28 @@ msgstr "Přepnout se na plochu %1"
 #: wayland/outputmanagement_v2.cpp:433
 #, kde-format
 msgid "One of the relevant outputs is no longer available"
-msgstr ""
+msgstr "Jeden z příslušných výstupů již není k dispozici"
 
 #: wayland/outputmanagement_v2.cpp:451
 #, kde-format
 msgid "Disabling all outputs through configuration changes is not allowed"
 msgstr ""
+"Zakázání všech výstupů prostřednictvím změn v konfiguraci není povoleno"
 
 #: wayland/outputmanagement_v2.cpp:461
 #, kde-format
 msgid "The provided output order doesn't contain all outputs"
-msgstr ""
+msgstr "Uvedené pořadí výstupů neobsahuje všechny výstupy"
 
 #: wayland/outputmanagement_v2.cpp:479
 #, kde-format
 msgid "The provided output order is invalid"
-msgstr ""
+msgstr "Zadané pořadí výstupů je neplatné"
 
 #: wayland/outputmanagement_v2.cpp:497
 #, kde-format
 msgid "The driver rejected the output configuration"
-msgstr ""
+msgstr "Ovladač odmítl výstupní konfiguraci"
 
 #: window.cpp:3303
 #, kde-format
@@ -3813,6 +3844,15 @@ msgid ""
 "paste bin service\n"
 "like https://paste.kde.org instead of pasting into support threads.\n"
 msgstr ""
+"Informace o podpoře KWin:\n"
+"Následující informace je třeba uvést při žádosti o podporu, např. na https://"
+"discuss.kde.org.\n"
+"Obsahují údaje o aktuálně spuštěné instanci, použitých nastaveních,\n"
+"o tom, jaký ovladač OpenGL a jaké efekty jsou spuštěny.\n"
+"Informace uvedené pod tímto úvodním textem prosím vložte do služby pro "
+"vkládání textu\n"
+"jako je https://paste.kde.org, místo toho, abyste je vkládali přímo do "
+"diskusních vláken podpory.\n"
 
 #: xwayland/xwaylandlauncher.cpp:272
 #, kde-format
