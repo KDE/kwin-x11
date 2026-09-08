@@ -2380,7 +2380,7 @@ msgstr "Opaque"
 #: plugins/translucency/package/contents/ui/config.ui:137
 #, kde-format
 msgid "Dialogs:"
-msgstr "Boîtes de dialogue :"
+msgstr "Boites de dialogue :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
